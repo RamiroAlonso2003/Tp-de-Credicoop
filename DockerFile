@@ -1,0 +1,6 @@
+# Jenkins con Maven
+FROM jenkins/jenkins:lts-jdk17 AS jenkins
+USER root
+RUN apt-get update 
+&& apt-get install maven -y
+
