@@ -14,7 +14,7 @@ services:
     restart: unless-stopped
 
   jenkins:
-    image: ericfolchgit/efolch-docker-repo-private:jenkins-latest
+    image: jenkins-latest
     container_name: jenkins
     ports:
       - "8080:8080"
